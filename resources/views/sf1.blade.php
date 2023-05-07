@@ -37,7 +37,6 @@
 	</style>
 </head>
 <body>
-    
 	<div class="text-center">
     <h3>School Form 1 School Register for Senior High School (SF1-SHS)1</h3>
     </div>
@@ -45,7 +44,6 @@
         <img src="assets/images/logodeped.jpg" alt="" style="width: 75px; height: 75px;">
         <img src="assets/images/test.png" alt="" style="width: 75px; height: 75px; float: right;">
     </div>
-    
     <div class="d-flex justify-content-between">
     <div style="display: flex; align-items: center;">
         <label for="row1" style="margin-right: 10px;">School Name</label>
@@ -98,7 +96,6 @@
     </div>
 
 	<table>
-        
 		<tr>
 			<th rowspan="2">LRN</th>
 			<th rowspan="2">Name (Last Name, First Name, Middle Name)</th>
@@ -165,14 +162,139 @@
                 <td>T/I DATE:2022-08-22</td>
 		</tr>
         <tr>
-		
+		        <td>105120100009</td>
+                <td>ARCEO,MARK TYRONE PONCE</td>
+                <td>M</td>
+                <td>07/19/2005/td>
+                <td>17</td>
+                <td>Christianity</td>
+                <td></td>
+                <td>VIZAL SANTO CRISTO</td>
+                <td>CANDABA</td>
+                <td>PAMPANGA</td>
+                <td>ARCEO, NICKSON CRUZ</td>
+                <td>PONCE,NERISSA,LOPEZ,</td>
+                <td></td>
 		</tr>
-    
+        <tr>
+		        <td>105951100002</td>
+                <td>ANGELES,JOHN MARK GONZALES</td>
+                <td>M</td>
+                <td>02/21/2004</td>
+                <td>18</td>
+                <td>Christianity</td>
+                <td></td>
+                <td>VIZAL SANTO CRISTO</td>
+                <td>CANDABA</td>
+                <td>PAMPANGA</td>
+                <td>ANGELES, REYNANTE CRUZ</td>
+                <td></td>
+                <td></td>
+		</tr>
+        <tr>
+            <td>4</td>
+            <td><=== Total Female</td>
+        
+        </tr>
 	</table>
+    <div style="font-size: 12px; margin-top: 5px;">
+        <p>Legend: List and Code of Indicators under REMARKS column</p>
+    </div>
+   
+    <footer>
+    <div class="row">
+     <div class="col-md-6">
+        <div class="form-group">
+        <table style="margin-top: 5px;">
+            <tr>
+                <th>Indicator</th>
+                <th>Code</th>
+                <th>Required Information</th>
+                <th>Indicator</th>
+                <th>Code</th>
+                <th>Required Information</th>
+            </tr>
+            <tr>
+                <td>Transfered Out</td>
+                <td>T/O</td>
+                <td style="font-size: 14px;" rowspan="5">Name of School, Date of 1st Attendance and Date of Last Attendance if Transferred Out</td>
+                <td>CCT Receipient</td>
+                <td>CCT</td>
+                <td style="font-size: 14px; line-height: 1.4;" rowspan="5">
+                    <ul style="list-style-type: none; padding: 0; margin: 0;">
+                        <li>CCT Control/reference number &amp; Effectivity Date</li>
+                        <li>Name of school last attended &amp; Year</li>
+                        <li>Specify Exceptionality of the Learner</li>
+                        <li>Specify Level &amp; Effectivity Date</li>
+                    </ul>
+                </td>
+
+     
+            </tr>
+            <tr>
+                <td rowspan="4">Transfered In</td>
+                <td rowspan="4">T/I</td>
+                <td>Balik Aral</td>
+                <td>B/A</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">Learner With Exceptionality Accelerated</td>
+                <td>LWE</td>
+              
+                
+            </tr>
+            <tr>
+            <td>ACL</td>
+            </tr>
+        </table>
+        </div>
+        </div>
+        <div class="col-md-2">
+        <div class="form-group">
+        <table style="margin-top: 5px;">
+            <tr>
+                <th>Registered</th>
+                <th>Beginning of the Semester</th>
+                <th>End of the Semester</th>
+            </tr>
+            <tr>
+                <td>Male</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="col-md-2 mx-auto">
+        <div class="form-group ">
+                <p style="font-size: 12px;">Prepared By</p>
+                <p class="text-center border-bottom border-dark">CESAR VASALLO VALONDO</p>
+                <p style="font-size: 12px;" class="text-center">(Signature of Adviser over Printed Name)</p>
+            <div class="d-flex justify-content-between" style="font-size: 10px;">
+                    <p>Beginning of the Semester  Date:</p>
+                    <p>End of the Semester  Date:</p>
+            </div>
+            <div class="d-flex justify-content-between" style="font-size: 10px;">
+                   <p class="border border-dark mx-1 px-auto">8/22/2022  12:00:00 AM</p>
+                   <p class="border border-dark mx-1 px-auto">2/3/2023  12:00:00 AM</p>
+            </div>
+        </div>
+    </div>
+    </footer>
     <div class="d-flex justify-content-end p-0 m-2">
         <a href="adviser" class="btn btn-primary mx-1">Back</a>
-        <a href="#" class="btn btn-primary mx-1">Export</a>
+        <a href="#" class="btn btn-primary mx-1">Print</a>
        
     </div>
+    
 </body>
 </html>
